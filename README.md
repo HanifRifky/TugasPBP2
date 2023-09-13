@@ -1,6 +1,6 @@
 Nama          : Muhamad Hanif Nurrifky Wicaksono
 
-Kelas         : PBP2-F
+Kelas         : PBP-F
 
 Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
 
