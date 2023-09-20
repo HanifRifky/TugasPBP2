@@ -49,6 +49,24 @@ Pertanyaan Tugas-2:
       - MVT dan MVC lebih berfokus pada web yang banyak berkutat dengan akses satu arah. Sedangkan MVVM berkecimpung pada aplikasi dua arah seperti aplikasi chat.
   
 Pertanyaan Tugas-3:
-1. 
+1. Apa perbedaan antara form POST dan form GET dalam Django?
+   Jawab:
+   - POST : Request yang mengubah data dari database, biasanya menggunakan POST
+   - GET  : Mengubah data yang dimasukkan menjadi string dan menggabungkannya ke dalam URL
+  
+2. Apa perbedaan utama antara XML, JSON, dan HTML dalam konteks pengiriman data?
+   Jawab:
+   - XML   : XML menyimpan, menyusun, dan mengorganisir data secara terstruktur untuk pertukaran data antar aplikasi. Cukup fleksibel dan dapat menyesuaikan dengan tipe struktur data yang             dikirim
+   - JSON  : JSON adalah format data yang penulisannya cukup ringkas sehingga mudah dibaca. Cocok untuk mengirimkan data dari server (database) ke halaman web dan lebih mudah untuk                     mengirim data dengan struktur array.
+   - HTML  : Lebih kepada markup language yang bertujuan untuk memberikan desain pada halaman web atau aplikasi
+  
+3. Mengapa JSON sering digunakan dalam pertukaran data antara aplikasi web modern?
+   Jawab:
+   karena format dari JSON sendiri yang ringkas dan mudah dibaca sehingga memudahkan programmer dan menyusun data. JSON juga kompatibel dan sejalan dengan berbagai bahasa pemrograman         lainnya sehingga mudah bagi programmer untuk menghubungkan sebuah data ke aplikasi atau web dengan bahasa pemrograman yang beragam. Bandwith yang digunakan juga kecil sehingga JSON        cukup ringan saat ingin mengirim data yang cukup besar.
+
+4. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial)
+   jawab:
+   - Membuat berkas baru bernama forms.py di direktori main dan mengimport beberapa modul seperti ModelForm dari django .forms dan Product dari main.models. Serta menginisiasi class ProductForm.
+   - 
    
       
