@@ -4,7 +4,7 @@ Kelas         : PBP-F
 
 Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
 
-Pertanyaan:
+Pertanyaan Tugas-2:
 1. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).
    Jawab:
    - Yang pertama dilakukan pastinya membuat folder/direktori lokal dengan nama tugasPBP2.
@@ -47,5 +47,8 @@ Pertanyaan:
       - Perbedaan utamanya terletak di Controller, Template, dan ViewModel di ketiganya. Hal ini tentunya membedakan fungsi "controlling" web dan aplikasi dengan user.
       - MVVM juga mendukung two-way data binding yang membuat sinkronisasi antara view dan viewModel lebih otomatis dibandingkan ketiga model lainnya.
       - MVT dan MVC lebih berfokus pada web yang banyak berkutat dengan akses satu arah. Sedangkan MVVM berkecimpung pada aplikasi dua arah seperti aplikasi chat.
+  
+Pertanyaan Tugas-3:
+1. 
    
       
