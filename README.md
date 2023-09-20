@@ -75,7 +75,9 @@ Pertanyaan Tugas-3:<br>
    - membuat fungsi show_xml, show_json, show_xml_by_id, dan show_json_by_id agar bisa melihat data2 yang dimasukkan melalui form melalui parameter data yang berbeda.
    - memasukkan setiap link parameter data ke dalam postman agar bisa menyelesaikan checklist terakhir
 
-5. ScreenShot postman
+5. ScreenShot postman<br>
+   - XML <br>
+   
    
    
       
