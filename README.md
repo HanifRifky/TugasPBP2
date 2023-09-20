@@ -76,7 +76,23 @@ Pertanyaan Tugas-3:<br>
    - memasukkan setiap link parameter data ke dalam postman agar bisa menyelesaikan checklist terakhir
 
 5. ScreenShot postman<br>
-   - XML <br>
+   - Postman HTML <br>
+   ![postman HTML](https://github.com/HanifRifky/TugasPBP2/assets/114400903/d4d7e806-2f45-45ec-ba21-0ac80bc2e613) <br>
+
+   - Postman XML <br>
+   ![xml](https://github.com/HanifRifky/TugasPBP2/assets/114400903/4dc79f8e-185d-44a5-8dc3-3992b722bf27) <br>
+
+   - Postman JSON <br>
+   ![json](https://github.com/HanifRifky/TugasPBP2/assets/114400903/48edec15-b7a5-41b5-bb48-08ae8e23a61e) <br>
+
+   - postman XML by id <br>
+   ![xml_Id](https://github.com/HanifRifky/TugasPBP2/assets/114400903/f32d5747-adf2-41ee-a21a-a60c8c43c4c7) <br>
+
+   - postman JSON by id <br>
+   ![json_Id](https://github.com/HanifRifky/TugasPBP2/assets/114400903/87c06d33-e3ad-4794-a9a3-e6dd2e24b396) <br>
+   
+   
+   
    
    
    
