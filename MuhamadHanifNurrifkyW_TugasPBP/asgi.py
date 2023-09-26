@@ -1,5 +1,5 @@
 """
-ASGI config for MuhamadHanifNurrifkyW_Tugas2 project.
+ASGI config for MuhamadHanifNurrifkyW_TugasPBP project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MuhamadHanifNurrifkyW_Tugas2.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MuhamadHanifNurrifkyW_TugasPBP.settings')
 
 application = get_asgi_application()

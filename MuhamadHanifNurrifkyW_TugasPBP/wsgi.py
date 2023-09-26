@@ -1,5 +1,5 @@
 """
-WSGI config for MuhamadHanifNurrifkyW_Tugas2 project.
+WSGI config for MuhamadHanifNurrifkyW_TugasPBP project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MuhamadHanifNurrifkyW_Tugas2.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MuhamadHanifNurrifkyW_TugasPBP.settings')
 
 application = get_wsgi_application()
