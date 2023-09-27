@@ -4,7 +4,7 @@ Kelas         : PBP-F
 
 Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
 
-Pertanyaan Tugas-2:
+**PERTANYAAN TUGAS-2:** <br>
 1. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial). <br>
    Jawab:
    - Yang pertama dilakukan pastinya membuat folder/direktori lokal dengan nama tugasPBP2.
@@ -48,7 +48,7 @@ Pertanyaan Tugas-2:
       - MVVM juga mendukung two-way data binding yang membuat sinkronisasi antara view dan viewModel lebih otomatis dibandingkan ketiga model lainnya.
       - MVT dan MVC lebih berfokus pada web yang banyak berkutat dengan akses satu arah. Sedangkan MVVM berkecimpung pada aplikasi dua arah seperti aplikasi chat.
   
-Pertanyaan Tugas-3:<br>
+**PERTANYAAN TUGAS-3**:<br>
 1. Apa perbedaan antara form POST dan form GET dalam Django?<br>
    Jawab:
    - POST : Request yang mengubah data dari database, biasanya menggunakan POST
@@ -92,7 +92,46 @@ Pertanyaan Tugas-3:<br>
    ![json_Id](https://github.com/HanifRifky/TugasPBP2/assets/114400903/87c06d33-e3ad-4794-a9a3-e6dd2e24b396) <br>
    
    
-test   
+**PERTANYAAN TUGAS-4:**<br>
+1. Apa itu Django UserCreationForm, dan jelaskan apa kelebihan dan kekurangannya?<br>
+   UserCreationForm merupakan sebuah template yang telah disediakan oleh django untuk membuat semacam formulir registrasi pengguna. Isinya terdapat usernam, password, dan email.<br>
+   Kelebihan : Mudah digunakan, terintegrasi dengan Django Authentication System, dan Dapat otomatis memvalidasi masukkan user. <br>
+   Kekurangan : Tidak dapat diubah secara berlebihan, harus menambahkan informasi selain yang disediakan secara manual, dan tidak otomatis terhubung dengan front-end suatu aplikasi atau web. <br>
+<br>
+2. Apa perbedaan antara autentikasi dan otorisasi dalam konteks Django, dan mengapa keduanya penting?<br>
+   > Autentikasi : Proses verifikasi data-data user. Contohnya adalah saat user ingin login dan memasukkan data-datanya, autentikasi memeriksa apakah data-data tersebut sesuai dengan data-data yang ada di database. Dalam django, hal ini berkaitan dengan User model dan UserCreationForm.<br>
+   > Otorisasi : Mengontrol akses user ke beberapa bagian dan/atau fungsi dari sebuah aplikasi atau web. Contohnya adalah saat user sudah masuk ke aplikasi atau web, sistem akan memeriksa user tersebut memiliki akses ke fitur dan/atau bagian mana saja dari sebuah aplikasi. Django sendiri memiliki beberapa fungsi untuk melakukan otorisasi ini seperti fungsi "@login_required" yang meminta agar user harus login terlebih dulu sebelum melanjutkan.<br>
+<br>
+3. Apa itu cookies dalam konteks aplikasi web, dan bagaimana Django menggunakan cookies untuk mengelola data sesi pengguna?<br>
+   >Cookies : merupakan sebuah mekanisme yang dapat menyimpan suatu data berukuran kecil secara sementara pada sisi klien. Cookies biasanya digunakan untuk menyimpan data pada perangkat user sehingga jika suatu saat informasi tersebut dibutuhkan, data tersebut bisa diakses dan digunakan kembali.<br>
+   >Cookies in Django :<br>
+      - Memulai session : Django akan menyimpan sebuah id unik saat user masuk pertama kali ke dalam web<br>
+      - Penyimpanan data sesi : Django akan menyimpan data-data seperti informasi-informasi login user dan disimpan pada server tapi identifikasi sesinya disimpan di perangkat user.<br>
+      - Menggunakan Cookie : Setelah semuanya disimpan, server django akan mengirim id sesi ke perangkat user dalam bentuk cookie. Sehingga, setiap kali user masuk ke halaman web tadi, cookie tadi akan dikirimkan kembali ke server sebagai request HTTP.<br>
+      - Pemulihan data sesi : ketika server menerima permintaan tadi, ia akan mengidentifikasi sesi user dan mengambil data yang diperlukan.<br>
+      - Penghapusan sesi seusai durasi : Django juga dapat mengatur sesi pengguna untuk berakhir jika pada periode tertentu, tidak ada aktivitas sama sekali dari user.<br>
+<br>
+4. Apakah penggunaan cookies aman secara default dalam pengembangan web, atau apakah ada risiko potensial yang harus diwaspadai?<br>
+   > Resiko Cookies :<br>
+     - Resiko keamanan : Informasi yang di ambil dan disimpan, bisa saja mengandung data sensitif. Sehingga data-data tersebut harus dienkripsi dan hanya digunakan untuk komunikasi antara perangkat user dan server saja.<br>
+     - Resiko Penyusupan (Hijacking) : Orang lain bisa saja mencuri session ID yang unik tadi dan digunakan untuk mengakses akun user tanpan izin. Bisa dicegah dengan cara menggunakan fitur keamanan seperti HttpOnly atau SecureFlags.<br>
+     - Cookies dari sumber sembarangan : Jika menggunakan dan menerima cookies yang sumbernya tidak diketahui, hal ini dapat membuka pintu serangan keamanan data dari berbagai sisi.<br>
+<br>
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).<br>
+   > Import beberapa modul seperti redirect, UserCreationForm (membuat form registrasi user), dan messages pada berkas views.py.
+   > Membuat fungsi yang regsiter agar user bisa melakukan regsitrasi data pengguna pada aplikasi web
+   > membuat fungsi login agar user bisa masuk ke halaman web setelah memasukkan data-data user
+   > Membuat fungsi logout agar user bisa keluar dari halaman web
+   > Membuat berkas register.html yang isinya merupakan tabel-tabel untuk menginput data registrasi user
+   > Membuat berkas login.html yang berguna untuk membuat tabel-tabel untuk menginput data login bagi user
+   > Membuat tombol logout pada berkas main.html
+   > Mengimport semua fungsi (register, login, dan logout) dari views.py ke urls.py serta menambahkan path untuk semua fungsi tersebut.
+   > Menambahkan fitur "@login required" agar setiap user yang ingin masuk ke dalam halaman web, harus di autentikasi dan di otorisasi terlebih dulu data-datanya.
+   > Menambahkan fitur-fitur Cookies seperti "last_login" yang dapat mengembalikan data kapan terakhir kali user tersebut mengakses halaman web tersebut.
+   > menyesuaikan kembali fungsi-fungsi register, login, dan logout agar sesuai dengan fitur-fitur cookies.
+   > Mencoba hasil halaman web dengan cara menginput dua user ke dalam halaman web.
+   > Menghubungkan model product dengan user
+   
    
    
    
