@@ -118,19 +118,19 @@ Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
      - Cookies dari sumber sembarangan : Jika menggunakan dan menerima cookies yang sumbernya tidak diketahui, hal ini dapat membuka pintu serangan keamanan data dari berbagai sisi.<br>
 <br>
 5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).<br>
-   > Import beberapa modul seperti redirect, UserCreationForm (membuat form registrasi user), dan messages pada berkas views.py.
-   > Membuat fungsi yang regsiter agar user bisa melakukan regsitrasi data pengguna pada aplikasi web
-   > membuat fungsi login agar user bisa masuk ke halaman web setelah memasukkan data-data user
-   > Membuat fungsi logout agar user bisa keluar dari halaman web
-   > Membuat berkas register.html yang isinya merupakan tabel-tabel untuk menginput data registrasi user
-   > Membuat berkas login.html yang berguna untuk membuat tabel-tabel untuk menginput data login bagi user
-   > Membuat tombol logout pada berkas main.html
-   > Mengimport semua fungsi (register, login, dan logout) dari views.py ke urls.py serta menambahkan path untuk semua fungsi tersebut.
-   > Menambahkan fitur "@login required" agar setiap user yang ingin masuk ke dalam halaman web, harus di autentikasi dan di otorisasi terlebih dulu data-datanya.
-   > Menambahkan fitur-fitur Cookies seperti "last_login" yang dapat mengembalikan data kapan terakhir kali user tersebut mengakses halaman web tersebut.
-   > menyesuaikan kembali fungsi-fungsi register, login, dan logout agar sesuai dengan fitur-fitur cookies.
-   > Mencoba hasil halaman web dengan cara menginput dua user ke dalam halaman web.
-   > Menghubungkan model product dengan user
+   > Import beberapa modul seperti redirect, UserCreationForm (membuat form registrasi user), dan messages pada berkas views.py.<br>
+   > Membuat fungsi yang regsiter agar user bisa melakukan regsitrasi data pengguna pada aplikasi web<br>
+   > membuat fungsi login agar user bisa masuk ke halaman web setelah memasukkan data-data user<br>
+   > Membuat fungsi logout agar user bisa keluar dari halaman web<br>
+   > Membuat berkas register.html yang isinya merupakan tabel-tabel untuk menginput data registrasi user<br>
+   > Membuat berkas login.html yang berguna untuk membuat tabel-tabel untuk menginput data login bagi user<br>
+   > Membuat tombol logout pada berkas main.html<br>
+   > Mengimport semua fungsi (register, login, dan logout) dari views.py ke urls.py serta menambahkan path untuk semua fungsi tersebut.<br>
+   > Menambahkan fitur "@login required" agar setiap user yang ingin masuk ke dalam halaman web, harus di autentikasi dan di otorisasi terlebih dulu data-datanya.<br>
+   > Menambahkan fitur-fitur Cookies seperti "last_login" yang dapat mengembalikan data kapan terakhir kali user tersebut mengakses halaman web tersebut.<br>
+   > menyesuaikan kembali fungsi-fungsi register, login, dan logout agar sesuai dengan fitur-fitur cookies.<br>
+   > Mencoba hasil halaman web dengan cara menginput dua user ke dalam halaman web.<br>
+   > Menghubungkan model product dengan user<br>
    
    
    
