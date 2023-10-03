@@ -131,6 +131,42 @@ Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
    > menyesuaikan kembali fungsi-fungsi register, login, dan logout agar sesuai dengan fitur-fitur cookies.<br>
    > Mencoba hasil halaman web dengan cara menginput dua user ke dalam halaman web.<br>
    > Menghubungkan model product dengan user<br>
+
+
+**PERTANYAAN TUGAS-5:**<br>
+1. Jelaskan manfaat dari setiap element selector dan kapan waktu yang tepat untuk menggunakannya.<br>
+   Jawab:<br>
+   Secara garis besar, element selector disesdiakan oleh CSS (CSS Selectors) untuk memisahkan berbagai elemen saat ingin diberikan style tertentu. Contoh element Selector:
+      - Simple selectors (berdasarkan name, id, class) - digunakan jika ada element spesifik yang telah diberikan karakteristik berbeda.<br>
+      - Combinator selectors (hubungan spesifik) - Digunakan saat ada beberapa elemen yang memiliki kesamaan karakteristik<br>
+      - Pseudo-class selectors (Berdasarkan kondisi) - Digunakan saat ada beberapa elemen yang memiliki kondisi-kondisi yang mirip<br>
+      - Pseudo-elements selctors (Sedikit bagian dari elemen) - Digunakan saat ingin mengubah style dari beberapa bagian dari suatu elemen<br>
+      - Attribute selectors (atribut elemen) - Digunakan saat mengubah suatu atribut dari suatu elemen<br>
+<br>
+2. Jelaskan HTML5 Tag yang kamu ketahui.<br>
+   Jawab:<br>
+   - "<Header>" = Menunjukkan bagian atas dari sebuah dokumen html. Berisi link2 dan elemen2 lain yang berkaitan dengan halaman secara tidak langsung.<br>
+   - "<Nav>" = Menunjukkan dan digunakan saat ingin membuat navigasi halaman<br>
+   - "<section>" = Membagi beberapa bagian dari dokumen html<br>
+   - "<input>" = Mengisi input <br>
+<br>
+3. Jelaskan perbedaan antara margin dan padding.<br>
+   Jawab:<br>
+   A. Margin<br>
+      Merupakan ruang di luar dari sebuah elemen HTML. Mengontrol jarak antar elemen. Tidak memiliki atribut latar belakang maupun "border" dan hanya bisa digunakan untuk membuat ruang dan jarak antar elemen. Margin bersifat transparan, yang berarti jika ada dua elemen yang memiliki margin sama, maka akan diambil salah satu margin saja.<br>
+   B. Padding<br>
+   Merupakan ruang di dalam suatu elemen HTMl dan terletak di antara batas elemen dan konten di dalam elemen tersebut. Megontrol jarak antara konten dari batas elemennya. Padding tidak bersifat transparan dan akan diterapkan secara terpisah.<br>
+<br>
+4. Jelaskan perbedaan antara framework CSS Tailwind dan Bootstrap. Kapan sebaiknya kita menggunakan Bootstrap daripada Tailwind, dan sebaliknya?<br>
+   Jawab:
+   A. Tailwind CSS<br>
+      Tailwind menyediakan sejumlah besar class style yang bisa digunakan langsung ke dalam HTML tanpa harus membuat rancangan style CSS secara terpisah. Tingkat fleksibilitas dari tailwind juga cukup luas sehingga, cocok dogunakan jika ingin mengontrol tampilah lebih leluasa.<br>
+   B. Bootstrap<br>
+      Merupakan framework CSS yang lebih tradisional dan berorientasi pada komponen2 dasar dari CSS itu sendiri. Bootstrap sendiri digunakan dengan cara menggabungkan markup HMTL dengan class bootstrap yang telah disesuaikan sebelumnya. Cocok digunakan bagi yang ingin lebih berorientasi pada komponen2 tertentu. Bootstrap juga cocok jika ingin cepat membangun tampilan depan dari web/aplikasi.<br>
+<br>
+
+   
+
    
    
    
