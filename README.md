@@ -164,6 +164,11 @@ Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
    B. Bootstrap<br>
       Merupakan framework CSS yang lebih tradisional dan berorientasi pada komponen2 dasar dari CSS itu sendiri. Bootstrap sendiri digunakan dengan cara menggabungkan markup HMTL dengan class bootstrap yang telah disesuaikan sebelumnya. Cocok digunakan bagi yang ingin lebih berorientasi pada komponen2 tertentu. Bootstrap juga cocok jika ingin cepat membangun tampilan depan dari web/aplikasi.<br>
 <br>
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).<br>
+   Jawab:
+   - import link2 Framework CSS(bootstrap, tailwind) ke dalam head di base.html
+   - mengubah format login yang awalnya hanya fokus ke tabel, menjadi format "<div>"
+   - Mengaplikasikan beberapa template login dan mengubah2 template sedikit
 
    
 
