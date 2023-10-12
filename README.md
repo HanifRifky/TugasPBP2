@@ -170,6 +170,8 @@ Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
    - mengubah format login yang awalnya hanya fokus ke tabel, menjadi format "<div>"
    - Mengaplikasikan beberapa template login dan mengubah2 template sedikit
 
+## Pertanyaan Tugas 6 <br>
+
    
 
    
