@@ -171,8 +171,27 @@ Link Domain   : https://muhamadhanifnurrifky-pbp.adaptable.app/
    - Mengaplikasikan beberapa template login dan mengubah2 template sedikit
 
 ## Pertanyaan Tugas 6 <br>
+1. Jelaskan perbedaan antara asynchronous programming dengan synchronous programming.<br>
+   Jawab:<br>
+   Synchronous programming adalah pendekatan programming saat kode dijalankan secara berurutan sesuai urutan kode yang telah dibentuk. Pada pendekatan ini, jika kode sebelumnya masih berjalan, kode selanjutnya tidak akan berjalan sampai kode sebelumnya selesai diproses.<br>
+   Asynchronous programming adalah pendekatan programming saat kode dijalnkan tanpa harus menunggu kode sebelumnya selesai (dengan catatan, kode sebelumnya tidak berpengaruh pada kode setelahnya. Biasanya digunakan saat ada kode yang memerlukan waktu sangat lama untuk dijalankan.<br>
+<br>
+2. Dalam penerapan JavaScript dan AJAX, terdapat penerapan paradigma event-driven programming. Jelaskan maksud dari paradigma tersebut dan sebutkan salah satu contoh penerapannya pada tugas ini.<br>
+   Jawab: <br>
+   Paradigma event-driven programming adalah pendekatan dalam programming di mana, program yang telah dibuat dapat memberikan respons sesuai dengan yang diberikan oleh user. Dalam tigas kali ini, bisa dibilang saat user menambahkan barang, maka barang yang di-add akan muncul pada tabel yang telah disediakan oleh program.<br>
+<br>
+3. Jelaskan penerapan asynchronous programming pada AJAX.<br>
+   Jawab:<br>
+   Penerapan Asynchronous pada AJAX, memungkinkan program untuk mengirim dan menerima data dari server secara asynchornous melalu HTTP tanpa perlu merefresh seluruh halaman web/aplikasi.<br>
+<br>
+4. Pada PBP kali ini, penerapan AJAX dilakukan dengan menggunakan Fetch API daripada library jQuery. Bandingkanlah kedua teknologi tersebut dan tuliskan pendapat kamu teknologi manakah yang lebih baik untuk digunakan.<br>
+   Jawab: <br>
+   Secara umum, jQuery lebih ringkas untuk digunakan karena banyak hal yang telah diselesaikan secara internal jquery itu sendiri. Sedangkan Fetch API membiarkan programmer lebih fleksibel dalam mengatur penggunannya. Secara kinerja, Fetch API yang memang sudah bawaan langsung dari browser pasti akan lebih cepat dibandingkan dengan jQuery. Namun, hal ini tidak terlalu terlihat. Secara ukuran, jQuery yang merupakan library eksternal/tambahan, pasti akan menambah beban ukuran eksternal lebih banyak dibandingkan dengan Fetch API yang memang sudah bawaan browser.<br>
+<br>
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step (bukan hanya sekadar mengikuti tutorial).<br>
+   Jawab:
+   Untuk menambahkan fitur Ajax, kita harus membuat beberapa fungsi pada views.py terlebih dulu. Ada dua fungsi yang ditambahkan. yaitu get_product_json() dan add_product_ajax
 
-   
 
    
    
