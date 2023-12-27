@@ -1,8 +1,9 @@
+import json
 from django.shortcuts import redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages  
 from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, JsonResponse
 from main.forms import ProductForm
 from django.urls import reverse
 from main.models import Product
@@ -144,7 +145,8 @@ def create_product_flutter(request):
             user = request.user,
             name = data["name"],
             price = int(data["price"]),
-            description = data["description"]
+            description = data["description"],
+            amount = data["amount"]
         )
 
         new_product.save()
